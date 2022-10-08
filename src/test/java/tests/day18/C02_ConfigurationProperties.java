@@ -10,6 +10,7 @@ public class C02_ConfigurationProperties {
         public void test01() {
 
             //Amazon sayfasına ve facebook sayfasına gidiniz
+
             String urlamzn = ConfigReader.getProperty("amznUrl");
             String urlFace = ConfigReader.getProperty("faceUrl");
             Driver.getDriver().get(urlamzn);

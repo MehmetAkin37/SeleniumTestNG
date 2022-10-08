@@ -1,4 +1,4 @@
-package tests.day17;
+package tests.day18;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -115,3 +115,27 @@ public class C06_Odev {
 
 
 }
+    /*
+    ODEV :
+
+    1) Bir class oluşturun: YoutubeAssertions
+    2) https://www.youtube.com adresine gidin
+    3) Aşağıdaki adları kullanarak 4 test metodu oluşturun ve gerekli testleri yapin
+    ○ titleTest => Sayfa başlığının “YouTube” oldugunu test edin
+    ○ imageTest => YouTube resminin görüntülendiğini (isDisplayed()) test edin
+    ○ Search Box 'in erisilebilir oldugunu test edin (isEnabled())
+    ○ wrongTitleTest => Sayfa basliginin “youtube” olmadigini dogrulayin
+
+     */
+
+      /*
+      ODEV :
+      Bir class oluşturun: DependsOnTest
+      https://www.amazon.com/ adresine gidin.
+      Test : Amazon ana sayfaya gittiginizi test edin
+      Test : 1.Test basarili ise search Box’i kullanarak “Nutella” icin
+      arama yapin ve aramanizin gerceklestigini Test edin
+      Test : “Nutella” icin arama yapildiysa ilk urunu tiklayin ve fiyatinin
+      $16.83 oldugunu test edin
+
+       */

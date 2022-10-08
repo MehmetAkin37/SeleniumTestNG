@@ -14,16 +14,15 @@ public class C01_PageClassFaceBookTest {
 
         //https://www.facebook.com/ adresine gidin
         Driver.getDriver().get("https://www.facebook.com/");
+
         FacebookPage facebookPage = new FacebookPage();
         facebookPage.cook.click();
 
-        //POM’a uygun olarak email, sifre kutularini ve giris yap
-        //butonunu locate edin
-       // facebookPage facebookPage = new facebookPage();
+        //POM’a uygun olarak email, sifre kutularini ve giris yap butonunu locate edin
+     
         Faker faker = new Faker();
 
-        //Faker class’ini kullanarak email ve sifre degerlerini
-        //yazdirip, giris butonuna basin
+        //Faker class’ini kullanarak email ve sifre degerlerini yazdirip, giris butonuna basin
         facebookPage.email.sendKeys(faker.internet().emailAddress());
         facebookPage.sifre.sendKeys(faker.internet().password());
         facebookPage.login.click();
